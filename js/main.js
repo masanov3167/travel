@@ -30,7 +30,7 @@
 // alert(first ** second);
 
 // var first = (prompt("sonni kiriting", 0));
-// var second = (prompt(`${first} ning necha foizini bilmochisiz kiriting`));
+// var second = (prompt(`${first} ning necha foizini bilmoqchisiz kiriting`));
 
 
 // alert(first / 100 * second);
@@ -84,7 +84,7 @@ if(countedSum == travelSum){
     console.log(`\n Oq yo'l Alisher! Sizda roppa-rosa ${travelSum} so'm pul bor ekan`)
 }else if(countedSum > travelSum){
     var excessMoney = countedSum - travelSum;
-    console.log(`\nOq yo'l Alisher sizda safarga chiqishg uchun yetarli deyilgan ${travelSum} so'mdan oshiqcha ${excessMoney} so'm pul bor ekan qaytarda uyingizga nimadur olib keling`);
+    console.log(`\nOq yo'l Alisher sizda safarga chiqishg uchun yetarli deyilgan ${travelSum} so'mdan oshiqcha ${excessMoney} so'm pul bor ekan`);
 
 }else{
     var notEnough = travelSum - countedSum;
